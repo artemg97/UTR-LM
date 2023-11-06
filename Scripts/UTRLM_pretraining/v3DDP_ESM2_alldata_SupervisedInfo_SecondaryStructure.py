@@ -37,7 +37,7 @@ from torch.utils.data.distributed import DistributedSampler
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--device_ids', type=str, default='0,1,2', help="Training Devices")
-parser.add_argument('--local_rank', type=int, default=-1, help="DDP parameter, do not modify")
+parser.add_argument('--local-rank', type=int, default=-1, help="DDP parameter, do not modify")
 
 parser.add_argument('--prefix', type=str, default = 'DDP5.1')
 parser.add_argument('--cell_line', type=str, default = 'fiveSpeciesCao')
