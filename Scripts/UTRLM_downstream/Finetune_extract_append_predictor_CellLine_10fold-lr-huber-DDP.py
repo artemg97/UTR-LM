@@ -51,7 +51,7 @@ parser.add_argument('--local-rank', type=int, default=-1, help="DDP parameter, d
 parser.add_argument('--log_interval', type=int, default=10, help="Log Interval")
 
 parser.add_argument('--prefix', type=str, default = 'DDP_M1')
-parser.add_argument('--cell_line', type=str, default = 'Muscle')
+parser.add_argument('--cell_line', type=str, default = 'HEK')
 parser.add_argument('--label_type', type=str, default = 'te_log')
 parser.add_argument('--seq_type', type=str, default = 'utr')
 parser.add_argument('--inp_len', type = int, default = 100)
