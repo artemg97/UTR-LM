@@ -47,7 +47,7 @@ torch.cuda.manual_seed_all(seed)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--device_ids', type=str, default='2,3', help="Training Devices")
-parser.add_argument('--local_rank', type=int, default=-1, help="DDP parameter, do not modify")
+parser.add_argument('--local-rank', type=int, default=-1, help="DDP parameter, do not modify")
 parser.add_argument('--log_interval', type=int, default=10, help="Log Interval")
 
 parser.add_argument('--prefix', type=str, default = 'DDP_M1')
